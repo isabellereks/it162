@@ -1,0 +1,43 @@
+/*styles for my css*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/grid.png);
+    background-repeat: repeat-y;
+    background-position: 50% 0;
+}
+
+#wrapper {
+    width: 940px;
+    margin: 30px auto;
+    background: rgba(80, 219, 219, 0.8);
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.row {
+    margin-bottom: 30px;
+    clear: both;
+    overflow: hidden;
+}
+
+main {
+    float: left;
+    width: 580px;
+    height: 200px;
+    background-color: beige;
+    margin-left: 20px;
+}
+
+aside {
+    float: right;
+    width: 320px;
+    height: 200px;
+    background-color: beige;
+    margin-right: 20px;
+}

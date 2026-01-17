@@ -1,0 +1,103 @@
+/*styles for my css*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/grid.png);
+    background-repeat: repeat-y;
+    background-position: 50% 0;
+}
+
+#wrapper {
+    width: 940px;
+    margin: 30px auto;
+    background: rgba(80, 219, 219, 0.8);
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.row {
+    margin-bottom: 30px;
+    clear: both;
+    overflow: hidden;
+}
+
+.col {
+    height: 100px;
+    background-color: beige;
+}
+
+/* Column width classes based on 960 grid */
+/* Formula: (columns * 60) - 20 = width */
+.col1 { width: 40px; }
+.col2 { width: 100px; }
+.col3 { width: 160px; }
+.col4 { width: 220px; }
+.col5 { width: 280px; }
+.col6 { width: 340px; }
+.col7 { width: 400px; }
+.col8 { width: 460px; }
+.col9 { width: 520px; }
+.col10 { width: 580px; }
+.col11 { width: 640px; }
+.col12 { width: 700px; }
+.col13 { width: 760px; }
+.col14 { width: 820px; }
+.col15 { width: 880px; }
+.col16 { width: 940px; }
+
+main {
+    float: left;
+    width: 580px;
+    height: 250px;
+    background-color: beige;
+    margin-left: 20px;
+}
+
+aside {
+    float: right;
+    width: 320px;
+    height: 250px;
+    background-color: beige;
+    margin-right: 20px;
+}
+
+/* Heading styles */
+h2 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: #333;
+    padding: 20px 0;
+}
+
+/* Icons row - 5 items using grid columns */
+.icons-row {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+.icon-box {
+    float: left;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.icon-box img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.icon-box p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
