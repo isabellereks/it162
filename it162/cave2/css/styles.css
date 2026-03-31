@@ -167,13 +167,13 @@ main p, aside p {
 
 
 .thirds-row {
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 .third {
     float: left;
-    width: 300px;
-    margin: 0 10px;
+    width: 286px;
+    margin: 0 5px;
     padding: 20px;
     background-color: #6b8e5e;
     color: #fff;
