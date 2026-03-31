@@ -12,65 +12,61 @@
         <h1>Wine Country</h1>
     </header>
 
-    <!-- W3 Schools Responsive Navbar with Dropdown -->
     <div class="topnav" id="myTopnav">
         <a href="#" class="active">Home</a>
         <a href="#">About</a>
-        <a href="#">Wines</a>
         <div class="dropdown">
-            <button class="dropbtn">Tours
+            <button class="dropbtn">Wines
                 <i class="arrow-down"></i>
             </button>
             <div class="dropdown-content">
-                <a href="#">Vineyard Tour</a>
-                <a href="#">Wine Tasting</a>
-                <a href="#">Private Events</a>
+                <a href="#">Cabernet</a>
+                <a href="#">Merlot</a>
+                <a href="#">Syrah</a>
+                <a href="#">Malbec</a>
             </div>
         </div>
-        <a href="#">Gallery</a>
+        <a href="#">Tours</a>
+        <a href="#">Events</a>
         <a href="#">Contact</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
 
     <div id="wrapper">
-
-        <div class="row">
-            <main>
-                <h2>Welcome to Wine Country</h2>
+        <div class="sidebar"></div>
+        <div class="content">
+            <div class="hero">
+                <h2>Welcome to our New Wine Website</h2>
                 <blockquote>
-                    "Wine is the only artwork you can drink." — Luis Fernando Olaverri
+                    "Nulla nec euismod eros, in varius enim. Aenean auctor enim vel eros sollicitudin elementum. Suspendisse in felis est. Etiam arcu tellus, convallis aliquet neque ac, semper viverra justo. Nullam quis magna a dolor tincidunt pulvinar eu non magna."
                 </blockquote>
-                <p>Discover the finest wines from Washington's premier wine region. Our vineyards produce exceptional varietals that capture the essence of the Pacific Northwest terroir.</p>
-                <p>From bold reds to elegant whites, our collection offers something for every palate. Visit our tasting room to experience the art of winemaking firsthand.</p>
-            </main>
-            <aside>
-                <h3>Upcoming Events</h3>
-                <p>Join us for our spring wine release party, featuring live music, gourmet food pairings, and exclusive access to our newest vintages.</p>
-                <p>Reserve your spot today for an unforgettable evening in wine country.</p>
-            </aside>
-        </div>
+            </div>
 
-        <div class="row">
-            <div class="third">
-                <h3>Red Wines</h3>
-                <p>Bold Cabernet Sauvignons, elegant Merlots, and complex Syrahs from our estate vineyards.</p>
-            </div>
-            <div class="third">
-                <h3>White Wines</h3>
-                <p>Crisp Chardonnays, aromatic Rieslings, and refreshing Sauvignon Blancs crafted with care.</p>
-            </div>
-            <div class="third">
-                <h3>Specialty</h3>
-                <p>Unique blends, late harvest dessert wines, and limited edition releases for the adventurous palate.</p>
+            <div class="row thirds-row">
+                <div class="third">
+                    <h3>Headline 2</h3>
+                    <p>Mauris gravida ex quam, sit amet feugiat metus porttitor in. Etiam sed purus purus. Vestibulum dictum blandit vestibulum.</p>
+                    <a href="#">Read more...</a>
+                </div>
+                <div class="third">
+                    <h3>Headline 2</h3>
+                    <p>Mauris gravida ex quam, sit amet feugiat metus porttitor in. Etiam sed purus purus. Vestibulum dictum blandit vestibulum.</p>
+                    <a href="#">Read more...</a>
+                </div>
+                <div class="third">
+                    <h3>Headline 2</h3>
+                    <p>Mauris gravida ex quam, sit amet feugiat metus porttitor in. Etiam sed purus purus. Vestibulum dictum blandit vestibulum.</p>
+                    <a href="#">Read more...</a>
+                </div>
             </div>
         </div>
-
     </div>
 
     <footer>
-        <p>Copyright &copy; 2026 &nbsp; | &nbsp; Web Design by Isabelle &nbsp; | &nbsp;
-            <a href="https://validator.w3.org/nu/?doc=" target="_blank">HTML Valid</a> &nbsp; | &nbsp;
-            <a href="https://jigsaw.w3.org/css-validator/validator?uri=" target="_blank">CSS Valid</a>
+        <p>Copyright 2026 &copy; &nbsp; All Rights Reserved &nbsp;
+            <a href="#">Web Design by Isabelle</a> &nbsp;
+            <a id="html-checker" href="#" target="_blank">HTML VALID</a> &nbsp;
+            <a id="css-checker" href="#" target="_blank">CSS VALID</a>
         </p>
     </footer>
 
@@ -83,6 +79,8 @@
                 x.className = "topnav";
             }
         }
+        document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+        document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
     </script>
 
 </body>
