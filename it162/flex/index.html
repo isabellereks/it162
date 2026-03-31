@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Country - Flex Layout</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Wine Country</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Wines</a></li>
+            <li><a href="#">Tours</a>
+                <ul class="dropdown">
+                    <li><a href="#">Vineyard Tour</a></li>
+                    <li><a href="#">Wine Tasting</a></li>
+                    <li><a href="#">Private Events</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="wrapper">
+
+        <div class="row">
+            <main>
+                <h2>Welcome to Wine Country</h2>
+                <blockquote>
+                    "Wine is the only artwork you can drink." — Luis Fernando Olaverri
+                </blockquote>
+                <p>Discover the finest wines from Washington's premier wine region. Our vineyards produce exceptional varietals that capture the essence of the Pacific Northwest terroir.</p>
+                <p>From bold reds to elegant whites, our collection offers something for every palate. Visit our tasting room to experience the art of winemaking firsthand.</p>
+            </main>
+            <aside>
+                <h3>Upcoming Events</h3>
+                <p>Join us for our spring wine release party, featuring live music, gourmet food pairings, and exclusive access to our newest vintages.</p>
+                <p>Reserve your spot today for an unforgettable evening in wine country.</p>
+            </aside>
+        </div>
+
+        <div class="row">
+            <div class="third">
+                <h3>Red Wines</h3>
+                <p>Bold Cabernet Sauvignons, elegant Merlots, and complex Syrahs from our estate vineyards.</p>
+            </div>
+            <div class="third">
+                <h3>White Wines</h3>
+                <p>Crisp Chardonnays, aromatic Rieslings, and refreshing Sauvignon Blancs crafted with care.</p>
+            </div>
+            <div class="third">
+                <h3>Specialty</h3>
+                <p>Unique blends, late harvest dessert wines, and limited edition releases for the adventurous palate.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2026 &nbsp; | &nbsp; Web Design by Isabelle &nbsp; | &nbsp;
+            <a href="https://validator.w3.org/nu/?doc=" target="_blank">HTML Valid</a> &nbsp; | &nbsp;
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=" target="_blank">CSS Valid</a>
+        </p>
+    </footer>
+
+</body>
+</html>

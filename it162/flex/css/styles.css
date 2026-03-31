@@ -1,0 +1,186 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f0eb;
+}
+
+/* Header */
+header {
+    background-color: #4a3728;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+header h1 {
+    color: #c8a951;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+/* Navigation with Flex */
+nav {
+    background-color: #6b5240;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px 24px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    background-color: #4a3728;
+}
+
+/* Dropdown with Flex */
+nav ul li ul.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #6b5240;
+    min-width: 180px;
+    z-index: 50;
+    flex-direction: column;
+}
+
+nav ul li:hover ul.dropdown {
+    display: flex;
+}
+
+nav ul li ul.dropdown li a {
+    padding: 10px 20px;
+    border-top: 1px solid #4a3728;
+}
+
+/* Wrapper */
+#wrapper {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Row with Flex */
+.row {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+/* Main and Aside with Flex */
+main {
+    flex: 2 1 0;
+    background-color: #fff;
+    padding: 25px;
+}
+
+aside {
+    flex: 1 1 0;
+    background-color: #fff;
+    padding: 25px;
+}
+
+main h2 {
+    color: #4a3728;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+main h3, aside h3 {
+    color: #4a3728;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+main p, aside p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+blockquote {
+    font-style: italic;
+    color: #6b5240;
+    border-left: 3px solid #c8a951;
+    padding: 10px 20px;
+    margin: 15px 0;
+    background-color: #f9f5ef;
+}
+
+/* Thirds with Flex */
+.third {
+    flex: 1 1 0;
+    text-align: center;
+    background-color: #6b8e5e;
+    color: #fff;
+    padding: 25px;
+}
+
+.third h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.third p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #4a3728;
+    padding: 15px;
+    text-align: center;
+    border-top: 3px solid #c8a951;
+}
+
+footer p {
+    color: #ccc;
+    font-size: 13px;
+    margin: 0;
+}
+
+footer a {
+    color: #c8a951;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries */
+@media screen and (max-width: 800px) {
+    .row {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li ul.dropdown {
+        position: relative;
+    }
+}
