@@ -1,4 +1,4 @@
-/* Reset */
+/* reset */
 * {
     padding: 0;
     margin: 0;
@@ -6,14 +6,13 @@
 }
 
 body {
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.7;
     color: #333;
     background-color: #f5f0eb;
 }
 
-/* Header */
 header {
     background-color: #4a3728;
     padding: 20px 30px;
@@ -26,7 +25,7 @@ header h1 {
     font-weight: normal;
 }
 
-/* W3 Schools Topnav */
+/* topnav */
 .topnav {
     overflow: hidden;
     background-color: #6b5240;
@@ -40,7 +39,7 @@ header h1 {
     padding: 14px 60px;
     text-decoration: none;
     font-size: 14px;
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     border: none;
     cursor: pointer;
     background-color: inherit;
@@ -54,13 +53,11 @@ header h1 {
     display: none;
 }
 
-/* Dropdown container */
 .dropdown {
     float: left;
     overflow: hidden;
 }
 
-/* Dropdown content */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -86,7 +83,6 @@ header h1 {
     display: block;
 }
 
-/* Arrow indicator */
 .arrow-down {
     display: inline-block;
     width: 0;
@@ -98,21 +94,18 @@ header h1 {
     vertical-align: middle;
 }
 
-/* Wrapper */
 #wrapper {
     max-width: 960px;
     margin: 20px auto;
     padding: 0 20px;
 }
 
-/* Row with Flex */
 .row {
     display: flex;
     margin-bottom: 20px;
     gap: 20px;
 }
 
-/* Main and Aside with Flex */
 main {
     flex: 2 1 0;
     background-color: #fff;
@@ -139,7 +132,7 @@ main h3, aside h3 {
 
 main p, aside p {
     margin-bottom: 15px;
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 blockquote {
@@ -151,7 +144,6 @@ blockquote {
     background-color: #f9f5ef;
 }
 
-/* Thirds with Flex */
 .third {
     flex: 1 1 0;
     text-align: center;
@@ -168,10 +160,10 @@ blockquote {
 
 .third p {
     font-size: 14px;
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
-/* Footer */
+/* footer */
 footer {
     background-color: #4a3728;
     padding: 15px;
@@ -194,7 +186,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Breakpoints - header color changes at each */
+/* breakpoints */
 @media screen and (max-width: 1400px) {
     header {
         background-color: #5a4535;

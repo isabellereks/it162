@@ -1,4 +1,4 @@
-/* Reset */
+/* reset */
 * {
     padding: 0;
     margin: 0;
@@ -6,14 +6,14 @@
 }
 
 body {
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.7;
     color: #333;
     background-color: #f5f0eb;
 }
 
-/* Header */
+/* header */
 header {
     background-color: #4a3728;
     padding: 20px 30px;
@@ -26,14 +26,14 @@ header h1 {
     font-weight: normal;
 }
 
-/* Wrapper */
+
 #wrapper {
     max-width: 960px;
     margin: 20px auto;
     padding: 0 20px;
 }
 
-/* Main */
+
 main {
     background-color: #fff;
     padding: 25px;
@@ -50,7 +50,7 @@ main p {
     margin-bottom: 15px;
 }
 
-/* Responsive Image Map Container */
+/* map container */
 .map-container {
     position: relative;
     width: 100%;
@@ -68,7 +68,7 @@ main p {
     object-fit: contain;
 }
 
-/* Map area overlays - positioned absolutely */
+
 .map-area {
     position: absolute;
     text-decoration: none;
@@ -99,7 +99,7 @@ main p {
     padding: 2px 6px;
 }
 
-/* Sections */
+
 section {
     background-color: #fff;
     padding: 20px 25px;
@@ -113,10 +113,10 @@ section h3 {
 }
 
 section p {
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
-/* Footer */
+/* footer */
 footer {
     background-color: #4a3728;
     padding: 15px;
@@ -138,7 +138,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Breakpoint 1 - Desktop */
+
 @media screen and (max-width: 1000px) {
     body {
         background-color: #e0d8cb;
@@ -149,7 +149,7 @@ footer a:hover {
     }
 }
 
-/* Breakpoint 2 - Tablet */
+
 @media screen and (max-width: 768px) {
     body {
         background-color: #d5cdc0;
@@ -169,7 +169,7 @@ footer a:hover {
     }
 }
 
-/* Breakpoint 3 - Mobile */
+
 @media screen and (max-width: 480px) {
     body {
         background-color: #cac2b5;

@@ -1,24 +1,24 @@
-/* Reset */
+/* reset */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* Typography */
+
 body {
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.7;
     color: #333;
     background-color: #f5f0eb;
 }
 
 h1, h2, h3 {
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-/* Header - left sidebar style */
+/* header */
 header {
     position: fixed;
     top: 0;
@@ -43,7 +43,7 @@ header p {
     font-style: italic;
 }
 
-/* Wrapper - 940px grid positioned after header */
+/* wrapper */
 #wrapper {
     width: 940px;
     margin: 0 auto;
@@ -52,7 +52,7 @@ header p {
     overflow: hidden;
 }
 
-/* Navigation */
+/* nav */
 nav {
     background-color: #4a3728;
     margin-bottom: 20px;
@@ -82,7 +82,7 @@ nav ul li a:hover {
     background-color: #6b5240;
 }
 
-/* Dropdown */
+/* dropdown */
 nav ul li ul.dropdown {
     display: none;
     position: absolute;
@@ -106,7 +106,7 @@ nav ul li ul.dropdown li a {
     border-top: 1px solid #6b5240;
 }
 
-/* Mobile toggle - hidden on desktop */
+/* mobile toggle */
 .mobile-toggle {
     display: none;
     padding: 14px 24px;
@@ -116,7 +116,7 @@ nav ul li ul.dropdown li a {
     background-color: #4a3728;
 }
 
-/* Hero row */
+
 .hero {
     background-color: #6b8e5e;
     padding: 60px 20px;
@@ -130,14 +130,14 @@ nav ul li ul.dropdown li a {
     font-weight: normal;
 }
 
-/* Row */
+
 .row {
     margin-bottom: 20px;
     clear: both;
     overflow: hidden;
 }
 
-/* Main and Aside - float grid */
+
 main {
     float: left;
     width: 580px;
@@ -162,10 +162,10 @@ main h3, aside h3 {
 
 main p, aside p {
     margin-bottom: 15px;
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
-/* Thirds row */
+
 .thirds-row {
     padding: 0 10px;
 }
@@ -188,7 +188,7 @@ main p, aside p {
 
 .third p {
     margin-bottom: 15px;
-    line-height: 1.6;
+    line-height: 1.7;
     font-size: 14px;
 }
 
@@ -198,7 +198,7 @@ main p, aside p {
     font-size: 14px;
 }
 
-/* About page - image centered in main */
+/* about page */
 .about-image {
     display: block;
     width: 80%;
@@ -206,7 +206,7 @@ main p, aside p {
     margin: 0 auto 20px auto;
 }
 
-/* Quarters - 4 awards inside .col8 */
+/* quarters */
 .col8 {
     width: 460px;
     margin: 0 auto;
@@ -233,7 +233,7 @@ main p, aside p {
     line-height: 1.4;
 }
 
-/* Col8-2 - two boxes side by side */
+
 .col8-2 {
     float: left;
     width: 440px;
@@ -248,7 +248,7 @@ main p, aside p {
     margin-bottom: 10px;
 }
 
-/* Footer */
+/* footer */
 footer {
     clear: both;
     background-color: #4a3728;
@@ -272,7 +272,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Media Queries */
+/* media queries */
 @media screen and (max-width: 1500px) {
     body {
         background-color: #e8e0d5;
@@ -362,7 +362,7 @@ footer a:hover {
         margin-left: 0;
     }
 
-    /* Mobile nav */
+    
     nav ul {
         display: none;
     }
