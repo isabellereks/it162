@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Washington State - Responsive Image Map</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Washington State Wine Regions</h1>
+    </header>
+
+    <div id="wrapper">
+
+        <main>
+            <h2>Explore Our Wine Regions</h2>
+            <p>Click on a region to learn more about its unique wines and vineyards.</p>
+
+            <div class="map-container">
+                <img src="images/wa-map.svg" alt="Washington State Wine Regions Map" class="map-image">
+
+                <!-- SVG overlays positioned absolutely -->
+                <a href="#bellingham" class="map-area" style="top: 8%; left: 18%; width: 12%; height: 10%;">
+                    <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+                        <rect x="0" y="0" width="100" height="100" fill="rgba(200, 169, 81, 0.4)" stroke="#c8a951" stroke-width="3"/>
+                    </svg>
+                    <span class="map-label">Bellingham</span>
+                </a>
+
+                <a href="#seattle" class="map-area" style="top: 25%; left: 15%; width: 12%; height: 10%;">
+                    <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+                        <rect x="0" y="0" width="100" height="100" fill="rgba(107, 142, 94, 0.4)" stroke="#6b8e5e" stroke-width="3"/>
+                    </svg>
+                    <span class="map-label">Seattle</span>
+                </a>
+
+                <a href="#yakima" class="map-area" style="top: 50%; left: 40%; width: 15%; height: 12%;">
+                    <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+                        <rect x="0" y="0" width="100" height="100" fill="rgba(74, 55, 40, 0.4)" stroke="#4a3728" stroke-width="3"/>
+                    </svg>
+                    <span class="map-label">Yakima Valley</span>
+                </a>
+
+                <a href="#walla-walla" class="map-area" style="top: 55%; left: 70%; width: 15%; height: 12%;">
+                    <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+                        <rect x="0" y="0" width="100" height="100" fill="rgba(200, 169, 81, 0.4)" stroke="#c8a951" stroke-width="3"/>
+                    </svg>
+                    <span class="map-label">Walla Walla</span>
+                </a>
+
+                <a href="#columbia" class="map-area" style="top: 35%; left: 55%; width: 18%; height: 12%;">
+                    <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+                        <rect x="0" y="0" width="100" height="100" fill="rgba(107, 82, 64, 0.4)" stroke="#6b5240" stroke-width="3"/>
+                    </svg>
+                    <span class="map-label">Columbia Valley</span>
+                </a>
+            </div>
+        </main>
+
+        <section id="bellingham">
+            <h3>Bellingham</h3>
+            <p>A growing wine region in the northern part of Washington, known for cool-climate varietals.</p>
+        </section>
+
+        <section id="seattle">
+            <h3>Seattle</h3>
+            <p>Home to numerous urban wineries and tasting rooms, serving as a hub for Washington wine culture.</p>
+        </section>
+
+        <section id="yakima">
+            <h3>Yakima Valley</h3>
+            <p>One of Washington's oldest and most established wine regions, producing a wide variety of grapes.</p>
+        </section>
+
+        <section id="walla-walla">
+            <h3>Walla Walla</h3>
+            <p>Renowned for world-class Cabernet Sauvignon and Syrah, with over 120 wineries in the region.</p>
+        </section>
+
+        <section id="columbia">
+            <h3>Columbia Valley</h3>
+            <p>Washington's largest wine region, encompassing over 11 million acres of diverse terrain.</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2026 &nbsp; | &nbsp; Web Design by Isabelle &nbsp; | &nbsp;
+            <a href="https://validator.w3.org/nu/?doc=" target="_blank">HTML Valid</a> &nbsp; | &nbsp;
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=" target="_blank">CSS Valid</a>
+        </p>
+    </footer>
+
+</body>
+</html>

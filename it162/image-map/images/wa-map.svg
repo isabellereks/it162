@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 687" width="1024" height="687">
+  <rect width="1024" height="687" fill="#e8e0d5"/>
+  <text x="512" y="343" text-anchor="middle" font-family="Georgia" font-size="36" fill="#4a3728">Washington State Map</text>
+  <text x="512" y="390" text-anchor="middle" font-family="Georgia" font-size="18" fill="#6b5240">Wine Regions</text>
+  <!-- Simplified WA state outline -->
+  <path d="M50,200 L200,50 L350,80 L500,60 L650,100 L800,80 L950,150 L970,300 L900,400 L850,500 L700,550 L500,600 L300,580 L150,500 L80,400 Z" fill="none" stroke="#4a3728" stroke-width="3"/>
+</svg>
